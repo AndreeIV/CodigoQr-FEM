@@ -11,14 +11,14 @@ body {
     background-color: hsl(212, 45%, 89%);
     margin: 0;
     padding: 0;
-    
 }
 .main {
     height: 90vh;
     display: flex;
+    flex-direction: column;
+
     justify-content: center;
     align-items: center;
-
 }
 
 
@@ -48,7 +48,6 @@ p{
     color: hsl(220, 15%, 55%);
     font-size: 15px;
     font-weight: 400;
-
 }
 
 .container__info {
